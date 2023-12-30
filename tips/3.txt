@@ -1,0 +1,10 @@
+`tar`
+-c : Creates Archive 
+-x : Extract the archive 
+-f : creates archive with given filename 
+-t : displays or lists files in archived file 
+-v : Displays Verbose Information 
+-z : zip, tells tar command that creates tar file using gzip 
+-j : filter archive tar file using tbzip
+tar -zcvf ~/package.tar.gz tmp/
+tar -jxvf package.tar.bz2

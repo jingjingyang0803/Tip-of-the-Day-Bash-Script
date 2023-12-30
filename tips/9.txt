@@ -1,0 +1,9 @@
+`sort`
+-r: sort In Reverse Order 
+$ sort -r inputfile.txt
+-n: sort a file numerically
+$ sort -n filename.txt
+-k 2: sort on the second column
+$ sort -k 2 filename.txt
+-u: sort and remove duplicates
+$ sort -u filename.txt

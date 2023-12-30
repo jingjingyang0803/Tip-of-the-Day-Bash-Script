@@ -1,0 +1,11 @@
+`date`
+1)	displays the system date and time
+2)	print the time in different formats
+%D – Display date as mm/dd/yy
+%T – Display date as HH:MM:SS
+%A – Full weekday name (e.g., Friday)
+…
+3)	sets the system date and time 
+4)	calculate future and past dates
+date --date="2 year ago"
+date --date="next monday"

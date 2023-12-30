@@ -1,0 +1,7 @@
+Ignoring redirection
+If cat(1) is passed to an argument, it assumes the argument is the name of the file(s) to print.
+$ cat file1 < file2
+If cat receives no arguments, it reads the stdin.
+cat < new.file.tmp
+date(1), ls(1), cd, mkdir(1) does not check its standard input and the redirection has no effect.
+ls < test.tmp

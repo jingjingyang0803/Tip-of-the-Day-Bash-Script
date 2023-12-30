@@ -1,0 +1,9 @@
+`awk`
+Print all the lines along with the line number:
+$ ls -l | awk '{print NR, $0}'
+Print only few fields from input:
+$ ls -l | awk '{ print $9, $5 }'
+Print any non empty line if present
+$ awk 'NF < 0' file.txt
+Print only lines that have 3 fields:
+$ cat file | awk 'NR == 3 {print}'

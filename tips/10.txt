@@ -1,0 +1,7 @@
+`cut`
+-d (--delimiter)	to specify a delimiter to use instead of the default TAB delimiter.
+-f (--fields=LIST)	Select using a specified field, a field set, or a field range.
+$ cut -d ' ' -f 2 file.txt
+-b (--bytes=LIST)	         -c (--characters=LIST)	
+To extract the first five bytes from each input line:
+$ cut -b 5 file.txt

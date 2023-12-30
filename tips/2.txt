@@ -1,0 +1,6 @@
+`paste`
+to join files horizontally/parallel merging
+by outputting lines consisting of lines from each file specified to the standard output
+$ paste file1 file2 file3 ...
+separated by tab as default delimiter 
+set another using -d (delimiter)

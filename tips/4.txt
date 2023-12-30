@@ -1,0 +1,11 @@
+`sed`
+a powerful text stream editor
+can do insertion, deletion, search and replace(substitution)
+1)	Delete pattern matching line
+$ sed '/tomato/d' filename.txt
+2)	Replace all the occurrence of the pattern in a line
+$sed 's/apple/banana/g' filename.txt
+3)	Replacing the 3rd occurrence of a pattern in a line
+$sed 's/unix/linux/3' geekfile.txt
+4)	Swap the words
+$ sed -e 's/\([a-zA-Z]*\) \([a-zA-Z]*\)/\2, \1/'

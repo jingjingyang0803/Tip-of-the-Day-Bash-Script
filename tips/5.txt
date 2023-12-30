@@ -1,0 +1,9 @@
+REGULAR EXPRESSIONS
+gr[ea]y  Match "grey" or "gray".
+ab?c    Match "abc" or "ac"; `b' 0 or 1 times.
+^Joe    Match name "Joe" only at the beginning.
+ab.*c    Match anything between "ab" and character "c".
+[0-9]+  Match multiple numbers in a line.
+Joe +(Smith|Jones)   
+Match First name "Joe" followed by any number of spaces and last name that can be either "Smith" or "Jones".
+[a-zA-Z0-9]           [:space:]

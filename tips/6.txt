@@ -1,0 +1,12 @@
+`find`
+can be used to find files and directories 
+and perform subsequent operations on them
+Basics
+-type d        -type f
+-size +100k
+-atime +10     -mtime +10
+-perm 664
+With AND/OR options: -a  -o  !
+\( -name "*.txt" -o -name "*.doc*" \)
+Using the "launch" option (-exec)
+-exec ls -l {} \;
